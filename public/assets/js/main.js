@@ -1411,15 +1411,15 @@
     	// Map pin coordinates and content of pin box
         var locations = [
             [
-            	'<address><strong>Address:</strong> Hollywood Blvd, Los Angeles, CA, USA <br> <strong>Phone:</strong> +01 010 554 11 22 </address>',
-            	34.101780,
-            	-118.333655
+            	'<address><strong>Address:</strong> 2429 Galiano St, Miami, FL 33134 <br> <strong>Phone:</strong> (305) 443-5217 </address>',
+            	25.752389,
+            	-80.255874
         	]
         ];
 
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 14,
-            center: new google.maps.LatLng(34.101780, -118.333655), // Map Center coordinates
+            center: new google.maps.LatLng(25.752389, -80.255874), // Map Center coordinates
             scrollwheel: false,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         });
