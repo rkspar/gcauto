@@ -106,7 +106,7 @@ body {
   direction: ltr;
   color: #323232;
   font: 400 13px/1.7 "Open Sans", Arial, sans-serif;
-  background-color: #9a9a9a;
+  background-color: #f8f8f8;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -1371,7 +1371,7 @@ p {
   right: 0;
   z-index: 0;
   background-color: #fff;
-  opacity: 0.65;
+  opacity: 0.15;
 }
 
 .page-header.parallax .container,
@@ -1423,7 +1423,7 @@ p {
 }
 
 .page-header.custom .breadcrumb li a {
-  color: #54baff;
+  color: #8B0000;
 }
 
 .page-header.custom .breadcrumb li a:hover, .page-header.custom .breadcrumb li a:focus {
@@ -1435,7 +1435,7 @@ p {
 }
 
 .page-header.custom .breadcrumb li + li:before {
-  color: #0d9dff;
+  color: #8B0000;
 }
 
 .page-header.custom.parallax:before, .page-header.custom.bg-image:before {
@@ -6801,7 +6801,7 @@ label.error {
 .header.custom .side-menu li:hover > a:focus, .header.custom .side-menu li:focus > a,
 .header.custom .side-menu li:focus > a:hover,
 .header.custom .side-menu li:focus > a:focus {
-  color: #0d9dff;
+  color: #8B0000;
 }
 
 /* Header2 Custom */
